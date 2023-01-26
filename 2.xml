@@ -217,3 +217,20 @@ https://github.com/dicodingacademy/assets/blob/main/android_pemula_academy/Asset
 
 
 </ScrollView>
+
+
+//mainactivity.kt
+package com.example.myviewandviewgroup
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        supportActionBar?.title="Tomy Satria Alasi"
+
+    }
+}
